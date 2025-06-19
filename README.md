@@ -54,11 +54,11 @@ This program is more than just an educational tool — it has practical applicat
 
 4.Learning Tool: For Java learners, this project illustrates how to:
 
-     .Work with URLs and HTTP connections
+  .Work with URLs and HTTP connections
 
-     .Read and parse JSON in Java
+  .Read and parse JSON in Java
 
-     .Handle user input and exceptions gracefully
+  .Handle user input and exceptions gracefully
 
   ###  Required Libraries:
 Java Standard Library: java.io, java.net, and java.util
@@ -70,11 +70,11 @@ External Library: org.json (you must include the json-<version>.jar in your clas
 
 1.Compile the program:
 
-          javac -cp .;json-20210307.jar WeatherFetch.java
+ javac -cp .;json-20210307.jar WeatherFetch.java
 
 2. Run the program:
 
-           java -cp .;json-20210307.jar WeatherFetch
+java -cp .;json-20210307.jar WeatherFetch
 
 ### OUTPUT:
 
