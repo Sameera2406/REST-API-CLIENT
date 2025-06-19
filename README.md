@@ -14,13 +14,13 @@ MENTOR : NEELA SANTOSH
 
 ##DESCRIPTION
 
-### Description of the WeatherFetch Java Program:
+##Description of the WeatherFetch Java Program:
 
 The WeatherFetch Java program is a simple, effective, and interactive console-based application designed to fetch and display real-time weather data for any city in the world. It utilizes Java’s core networking and I/O libraries to make HTTP requests and process the response data in JSON format. The primary goal of the application is to demonstrate how to consume a web-based API using Java, making it a useful educational tool for beginners and intermediate developers who want to explore HTTP communication, API integration, and JSON parsing.
 
 This program connects to the public weather API provided by wttr.in, which delivers weather details in JSON format for a given location. The user simply enters a city name, and the program sends a request to the API, retrieves the data, processes it, and then displays the weather details including temperature, humidity, weather condition, and wind speed/direction.
 
- ### Program Structure and Core Features:
+ ##Program Structure and Core Features:
  
 The entire program is written in one class named WeatherFetch. It performs several distinct operations in sequence:
 
@@ -42,7 +42,7 @@ Wind speed and wind direction.
 
 6.Error Handling: A try-catch block surrounds the entire logic to handle any exceptions related to network errors, malformed JSON, or invalid input. This ensures that the program doesn’t crash and gives meaningful feedback if something goes wrong.
 
-## Use Cases:
+##Use Cases:
 
 This program is more than just an educational tool — it has practical applications in many real-life scenarios:
 
@@ -60,12 +60,12 @@ This program is more than just an educational tool — it has practical applicat
 
   .Handle user input and exceptions gracefully
 
-  ###  Required Libraries:
+  ###Required Libraries:
 Java Standard Library: java.io, java.net, and java.util
 
 External Library: org.json (you must include the json-<version>.jar in your classpath)
 
- ## How to Run:
+ ##How to Run:
  
 
 1.Compile the program:
@@ -76,7 +76,7 @@ External Library: org.json (you must include the json-<version>.jar in your clas
 
 java -cp .;json-20210307.jar WeatherFetch
 
-### OUTPUT:
+##OUTPUT:
 
 ![Image](https://github.com/user-attachments/assets/1c978316-9839-40b5-9824-38b54cb0c2ce)
 
