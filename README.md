@@ -42,7 +42,7 @@ Wind speed and wind direction.
 
 6.Error Handling: A try-catch block surrounds the entire logic to handle any exceptions related to network errors, malformed JSON, or invalid input. This ensures that the program doesn’t crash and gives meaningful feedback if something goes wrong.
 
-### Use Cases:
+## Use Cases:
 
 This program is more than just an educational tool — it has practical applications in many real-life scenarios:
 
@@ -65,7 +65,7 @@ Java Standard Library: java.io, java.net, and java.util
 
 External Library: org.json (you must include the json-<version>.jar in your classpath)
 
- ### How to Run:
+ ## How to Run:
  
 
 1.Compile the program:
