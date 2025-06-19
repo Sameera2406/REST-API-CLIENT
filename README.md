@@ -67,7 +67,6 @@ External Library: org.json (you must include the json-<version>.jar in your clas
 
  ##How to Run:
  
-
 1.Compile the program:
 
  javac -cp .;json-20210307.jar WeatherFetch.java
